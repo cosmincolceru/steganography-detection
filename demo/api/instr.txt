@@ -1,0 +1,2 @@
+docker build -t stego-api-img .
+docker run -p 5000:5000 --name stego-api stego-api-img

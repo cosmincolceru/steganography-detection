@@ -1,0 +1,9 @@
+python test_image.py bird.jpg
+
+python jsteg.py embed -i bird.jpg -m payload.py -o bird_stego.jpg
+
+python test_image.py bird_stego.jpg
+
+python extract_and_execute.py
+
+
